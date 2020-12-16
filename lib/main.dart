@@ -2,9 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice/Screens/Homepage.dart';
 import 'package:flutter_practice/Screens/SignIn.dart';
 import 'package:flutter_practice/Screens/SignUp.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 
-void main() {
+void main() async{
+   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 

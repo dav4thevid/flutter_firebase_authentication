@@ -34,7 +34,7 @@ class SignUpScreen extends StatelessWidget {
                   focusedBorder: UnderlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                   ),
-                   enabledBorder: UnderlineInputBorder(
+                  enabledBorder: UnderlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                   ),
                   errorBorder: UnderlineInputBorder(
@@ -66,7 +66,10 @@ class SignUpScreen extends StatelessWidget {
               ),
               RaisedButton(
                 onPressed: () {},
-                child: Text('Submit'),
+                child: Text(
+                  'Submit',
+                  style: TextStyle(fontSize: 18),
+                ),
               )
             ]),
           ),
