@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_practice/Screens/Homepage.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+
 class SignInScreen extends StatelessWidget {
   static String id = 'sign-in';
   final _formKey = GlobalKey<FormState>();
